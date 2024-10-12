@@ -1,0 +1,20 @@
+<!-- Cloned from "https://www.facebook.com/groups/340398917711992/permalink/1083432650075278/" -->
+<div class="container">
+  <div class="header">
+    <h1><span class="l">L</span>OGIN</h1>
+  </div>
+  <form>
+
+    <label for="userName">Username</label>
+    <input type="text" name = "userName" [(ngModel)]="loginObj.userName" class="inp"  required>
+
+    <label for="password">Password</label>
+    <input type="password" name = "password" [(ngModel)]="loginObj.password" class="inp"  required>
+
+    <button type="button" (click)="onLogin()">Enter</button>
+  </form>
+  <div class="signup">
+    <b>Don't have account?</b>
+    <a href="#">Sign up</a>
+  </div>
+</div>
