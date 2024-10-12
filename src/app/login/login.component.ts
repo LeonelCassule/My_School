@@ -21,8 +21,8 @@ export class LoginComponent {
   public onLogin(){
 
     if(this.loginObj.userName == "leonel" && this.loginObj.password == "1994"){
-      this._router.navigateByUrl('/curso');
-    
+      this._router.navigateByUrl('/courses');
+
     }
     else{
       alert("Credenciais Invalidas!");

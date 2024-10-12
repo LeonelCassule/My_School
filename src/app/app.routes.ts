@@ -2,8 +2,8 @@ import { Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component';
 import { Component } from '@angular/core';
-import { CursoComponent } from './curso/curso.component';
 import { HomeComponent } from './home/home.component';
+import { CoursesComponent } from './courses/courses/courses.component';
 
 export const routes: Routes = [
 
@@ -24,8 +24,8 @@ export const routes: Routes = [
 
       children:[
         {
-        path:'curso',
-        component: CursoComponent
+        path:'courses',
+        component: CoursesComponent
         }
      ]
     }
